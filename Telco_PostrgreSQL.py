@@ -26,7 +26,7 @@ engine = create_engine(
 print("Connection successful!")
 
 telco_df.to_sql(
-    name = 'db_check',
+    name = 'telco_churn',
     con = engine,
     if_exists='replace', #'replace',        #if re-uploading, use append instead
     index=False
