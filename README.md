@@ -127,9 +127,11 @@ All key relationships were formally tested before being elevated to business rec
 ```
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv        # Original Kaggle dataset
 ├── Updated_Churn_Analysis_Dataset.csv          # Cleaned & feature-engineered dataset
-├── churn_analysis.ipynb                        # Full EDA, cleaning, testing, DB upload
-├── churn_dashboard.twbx                        # Tableau workbook (packaged)
+├── Telco_EDA.ipynb                             # Full EDA, cleaning, testing
+├── Telco_PostgreSQL.py                         # Full EDA, cleaning, testing
+├── Churn Analysis.twbx                         # Tableau workbook (packaged)
 ├── Customer_Churn_Analysis_Report.pdf
+├── pipeline_diagram.png
 └── README.md
 ```
 
