@@ -147,10 +147,10 @@ pip install pandas numpy matplotlib seaborn scipy sqlalchemy psycopg2-binary
 
 ### PostgreSQL Setup
 
-1. Create a database named `telco_db` on your local PostgreSQL instance (default port 5432)
+1. Create a database named `telco_db` on your local PostgreSQL instance
 2. Update the connection string in the notebook if your credentials differ:
    ```python
-   engine = create_engine("postgresql+psycopg2://username:password@127.0.0.1:5432/telco_db")
+   engine = create_engine("postgresql+psycopg2://username:password@{host}:{port}/telco_db")
    ```
 3. Run the notebook — it will create the `telco_churn` table and all views automatically
 
